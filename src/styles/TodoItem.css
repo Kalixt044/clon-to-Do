@@ -1,0 +1,39 @@
+.todo-item {
+  margin: 20px 0;
+  padding: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: var(--main-bg);
+  border-radius: 8px;
+  box-shadow: var(--btn-shadow);
+}
+.todo-item:nth-child(2n) {
+  background-color: var(--main-bg-soft);
+}
+.todo-item p {
+  max-width: 80%;
+  text-align: center;
+}
+.completed {
+  text-decoration: line-through;
+}
+.todo-icon {
+  width: 28px;
+  height: 28px;
+  color: #7D80AA;
+  cursor: pointer;
+}
+.checked {
+  color: var(--main);
+}
+.delete {
+  width: 25px;
+  height: 25px;
+}
+.delete:hover {
+  color: var(--warning);
+}
