@@ -71,8 +71,3 @@ Export: The App component is exported as the main component of the application.
 In summary, this code implements a todo list application with features like task filtering, deletion, and completion, along with a modal for adding new tasks.
 
 
-
-
-
-Regenerate response
-
